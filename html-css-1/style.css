@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background: grey;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 80%;
+    width: 15%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    position: center;
+    right:2px;
+    color: white;
+}
+
+.home{
+    margin-right: 20px;
+}
+
+.about {
+    margin-right: 20px;
+}
+
+.contact{
+    margin-right: 20px;
+}
+
+.blackbox{
+    background: black;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: center
+}
+
+.yellowText{
+    height: 50%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top: 70px;
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.whitebox{
+    height: 55vh;
+    width:  100%;
+}
+
+.greenboxes{
+    border: 1px solid red;
+    height: 43%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+
+.greenboxLeft{
+    background: aquamarine;
+    height: 80%;
+    width: 20%;
+    position: relative;
+    top: 15px;
+    margin-left: 100px;
+}
+
+.greenboxCenter{
+    background: aquamarine;
+    height: 80%;
+    width: 20%;
+    margin-right: 100px;
+    margin-left: 100px;
+    position: relative;
+    top: 15px;
+}
+
+.greenboxRight{
+    background: aquamarine;
+    height: 80%;
+    width: 20%;
+    margin-right: 100px;
+    position: relative;
+    top: 15px;
+}
+
+.orangeBoxes{
+    border: 1px solid blue;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.orangeboxLeft{
+    background: orange;
+    height: 100%;
+    width: 40%;
+    margin-right: 20px;
+}
+
+.orangeboxRight{
+    background: orange;
+    height: 100%;
+    width: 40%;
+}
+
+.textandpicture{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.textbox{
+    border: 1px solid red;
+    height: 80%;
+    width: 40%;
+    font-size: .5rem;
+    margin-right: 100px;
+}
+
+.picture{
+    border: 2px solid blue;
+    object-fit: ;
+    width: 40%;
+    height: 80%;
+   
+}
+
+ .footer{
+     background: darkblue;
+     height: 10vh;
+     width: 100%;
+} 
